@@ -42,14 +42,14 @@
         /* Hero Section with Atmosphere & "Type Treatment" */
         .hero {
             position: relative;
-            height: 50vh;
-            min-height: 350px;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: var(--text-light);
             background: url('https://cowlitzvalleycompost.com/wp-content/uploads/2023/11/cowlitz-valley-compost-home-hero.webp') center/cover no-repeat;
+            background-attachment: fixed;
             padding: 0 24px;
         }
 
@@ -93,8 +93,7 @@
 
         /* Locations Hub - Horizontal Uniform Grid with Glassmorphism */
         .locations {
-            padding: 20px 0 120px;
-            margin-top: -30px;
+            padding: 100px 0 120px;
             position: relative;
             z-index: 10;
         }
@@ -335,8 +334,9 @@
             }
 
             .hero {
-                height: auto;
-                padding: 100px 24px 60px;
+                height: 100vh;
+                height: 100dvh;
+                padding: 0 24px;
             }
 
             .locations {
